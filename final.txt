@@ -32,6 +32,23 @@
 					nombre:"Ingeieria en computacion",
 					};
 
+				var arreglo=[];
+
+				for(var i=0 ; i<5 ;i++){
+					if(i==0){
+					  arreglo[i]=persona.nombre + " " + persona.apellido;
+					  }	else  if(i==1){
+ 						arreglo[i]=estudiante.nombre + " " + estudiante.apellido;
+ 						}else if(i==2)	{
+ 							arreglo[i]=empleado.cargo + " "+ empleado.salario;
+ 						}else if(i==3){
+ 							arreglo[i]=clase.nombre + " " + clase.turno;
+ 						}else if(i==4){
+ 							arreglo[i]=carrera.nombre;
+ 						}
+ 
+				};
+
 				
 			</script>
 	</body>	
