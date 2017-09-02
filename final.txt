@@ -7,6 +7,31 @@
 
 	<body>
 			<script type="text/javascript">
+				var persona={
+					nombre: "Oscar",
+  					apellido: "Garcia"
+					};
+
+				var estudiante={
+					nombre: "Enmanuel",
+ 					 apellido: "Jarquin"
+					};
+
+				var empleado={
+					cargo:"Docente",
+					salario: "12,500"
+					};
+
+
+				var clase={
+					nombre:"Programacion Grafica",
+					turno:"Sabatino"
+					};
+
+				var carrera={
+					nombre:"Ingeieria en computacion",
+					};
+
 				
 			</script>
 	</body>	
